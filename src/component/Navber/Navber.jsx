@@ -24,6 +24,14 @@ const Navber = () => {
             <Link to='/contact' className="cursor-pointer hover:text-orange-500 duration-300">Contact</Link>
         </ul>
 
+
+        {/* ======================================== */}
+
+
+        <Link className='bg-orange-400 text-white px-8 py-2 hover:bg-amber-700 duration-300 rounded-full cursor-pointer'>
+        Submit
+        </Link>
+
         </div>
     </nav>
   )
