@@ -20,7 +20,7 @@ const Navber = () => {
         <ul className="hidden sm:flex gap-5 text-xl font-normal justify-center items-center text-gray-700">
             <Link to='/' className="cursor-pointer hover:text-orange-500 duration-300">Home</Link>
             <Link to='/about' className="cursor-pointer hover:text-orange-500 duration-300">About</Link>
-            <Link to='/blog' className="cursor-pointer hover:text-orange-500 duration-300">Blogs</Link>
+            <Link to='/blogs' className="cursor-pointer hover:text-orange-500 duration-300">Blogs</Link>
             <Link to='/contact' className="cursor-pointer hover:text-orange-500 duration-300">Contact</Link>
         </ul>
 

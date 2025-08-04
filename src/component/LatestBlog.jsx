@@ -6,11 +6,11 @@ import BlogCard from './BlogCard'
 const LatestBlog = () => {
     return (
         <div>
-            <h1 className='text-3xl font-bold text-center sm:text-start'>
+            <h1 className='text-3xl font-bold text-center sm:text-start text-gray-700'>
                 Latest Blog
             </h1>
 
-            <div className="">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-3 sm:px-4 my-4">
                 {blogData.map((blog, index) => (
                     <BlogCard
                         key={index}
