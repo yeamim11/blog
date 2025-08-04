@@ -16,10 +16,11 @@ const BlogCard = (
     return (
         <div className="border-1 border-gray-300 shadow-md p-3 rounded-md">
             <Link to={`/blog/${id}`}>
-            <img src={image} alt="img" />
+            <img src={image} alt="img" 
+            className="flex items-center justify-center w-full mx-auto cursor-pointer transform duration-300 hover:scale-105"/>
             </Link>
-            <p>{category}</p>
-            <h1>{title}</h1>
+            <p className="text-[#4B6BFB] font-semibold my-3" >{category}</p>
+            <h1 className="text-xl font-bold">{title}</h1>
 
             <div className="">
                 <img src={author_image} alt="" />
